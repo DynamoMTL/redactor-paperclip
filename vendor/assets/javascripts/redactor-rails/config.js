@@ -8,6 +8,7 @@ window.init_redactor = function(){
   $('.redactor').redactor(
     { "imageUpload":"/redactor_assets/create?" + params,
       "imageGetJson":"/redactor_assets/",
+      "buttonSource": true,
       "css":"style.css"}
   );
 }
